@@ -1,0 +1,23 @@
+{
+    "name": "ramin/timesum",
+    "description": "A simple PHP library to sum HH:MM:SS time strings",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ramin\\TimeSum\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ramin Pourmohammad",
+            "email": "raminpouur0011@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
